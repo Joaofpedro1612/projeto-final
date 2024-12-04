@@ -220,3 +220,53 @@ margin-bottom: 6vh;
     background-size: contain;
  }
 
+#pagina-historiadores{
+   background-image: url(./img/fundo-historiadores.png);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+#conteudo-historiadores{
+   display: flex;
+   flex-direction: row;
+}
+
+#pagina-historiadores #titulo{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-bottom: 16vh;
+   
+}
+
+#pagina-historiadores h1{
+   font-family: "Cormorant Garamond", serif;
+   font-style: bold ;
+   font-size: 56px;
+   color: #C97B46;
+}
+
+#pagina-historiadores h2{
+   font-family: "Cormorant Garamond", serif;
+   font-style: italic ;
+   font-size: 30px;
+   color: #C97B46;
+}
+
+#pagina-historiadores #conteudo-historiadores p{
+   width: 40vh;
+   margin-bottom: 12vh;
+   margin-right: 40vh;
+   font-family: "Cormorant Garamond", serif;
+   font-style: light ;
+   font-size: 28px;
+   color: #5C2A00;
+}
+
+#pagina-historiadores #conteudo-historiadores img{
+   margin-right: 20vh;
+   height: 26vh;
+}
+
+
