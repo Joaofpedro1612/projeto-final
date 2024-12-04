@@ -270,3 +270,287 @@ margin-bottom: 6vh;
 }
 
 
+@media(max-width: 375px) {
+
+   html, body{
+      overflow-x: hidden;
+   }
+  
+      header {
+         background-color: #C97B46;
+         position: fixed;
+         width: 100%;
+      }
+   
+      #logo {
+         width: 40px; 
+      }
+      
+      header nav ul {
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         padding: 2px;
+      }
+   
+      header nav a {
+         font-weight: bold;
+         font-size: 7px; 
+         text-decoration: none;
+         color: #ffffff;
+         padding: 8px;
+         transition: all 0.3s ease;
+      }
+     
+      header nav a:hover {
+         color: #5C2A00;
+      }
+      
+      .grupo {
+         height: 90vh;
+      }
+      
+      section {
+        
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+      }
+      
+      #pagina-inicial {
+         background-image: url(./img/iPhone\ SE\ -\ 1\ \(1\).png);
+       
+      }
+      
+      #pagina-inicial #textos {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+      }
+      
+      #pagina-inicial #textos h1 {
+         font-family: "Cormorant Garamond", serif;
+         font-style: bold;
+         font-size: 32px; 
+         color: #C97B46;
+      }
+      
+      #pagina-inicial #textos h2 {
+         font-family: "Cormorant Garamond", serif;
+         font-style: italic;
+         font-size: 16px; 
+         color: #C97B46;
+      }
+      
+      #pagina-inicial #textos p {
+         width: 100%; 
+         font-family: "Cormorant Garamond", serif;
+         font-style: light;
+         font-size: 16px;
+         text-align: center;
+         margin-bottom: 0vh;
+         color: #5C2A00;
+      }
+   
+      #pagina-guerras {
+         background-image: url(./img/fundo-guerras.png);
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+      }
+     
+      #pagina-guerras #titulo {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         margin-bottom: 5vh;
+      }
+   
+      #pagina-guerras #conteudo-guerras {
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+      }
+     
+      #pagina-guerras h1 {
+         font-family: "Cormorant Garamond", serif;
+         font-style: bold;
+         font-size: 32px;
+         color: #C97B46;
+      }
+   
+      #pagina-guerras h2 {
+         font-family: "Cormorant Garamond", serif;
+         font-style: italic;
+         font-size: 18px;
+         color: #C97B46;
+      }
+   
+      #pagina-guerras p {
+         margin-left: 0;
+         font-family: "Cormorant Garamond", serif;
+         font-style: light;
+         font-size: 16px;
+         text-align: center;
+         color: #5C2A00;
+         margin-bottom: 5vh;
+         width: 50vh;
+      }
+      
+      #pagina-guerras img{
+         width: 90%;
+      }
+
+      #pagina-revolucoes {
+         background-image: url(./img/fundo-revolucoes.png);
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+      }
+   
+      #pagina-revolucoes #titulo {
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         margin-bottom: 6vh;
+      }
+   
+      #pagina-revolucoes h1 {
+         font-family: "Cormorant Garamond", serif;
+         font-style: bold;
+         font-size: 32px;
+         color: #C97B46;
+      }
+     
+      #pagina-revolucoes h2 {
+         font-family: "Cormorant Garamond", serif;
+         font-style: italic;
+         font-size: 16px;
+         color: #C97B46;
+      }
+   
+      #pagina-revolucoes #conteudo-revolucoes {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         font-size: 18px;
+         text-align: center;
+         margin-top: 10vh;
+         margin-bottom: 6vh;
+      }
+   
+      #pagina-revolucoes #conteudo-revolucoes p {
+         font-family: "Cormorant Garamond", serif;
+         font-style: light;
+         font-size: 16px;
+         text-align: center;
+         color: #5C2A00;
+         margin-bottom: 5vh;
+         width: 50vh;
+      }
+
+      #pagina-revolucoes img{
+         width: 90%;
+      }
+   
+      #pagina-imperios {
+         background-image: url(./img/fundo-imperios.png);
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+      }
+   
+      #pagina-imperios #titulo {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         margin-bottom: 10vh;
+      }
+   
+      #pagina-imperios #conteudo-imperios {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+      }
+   
+      #pagina-imperios h1 {
+         font-family: "Cormorant Garamond", serif;
+         font-style: bold;
+         font-size: 32px;
+         color: #C97B46;
+      }
+   
+      #pagina-imperios h2 {
+         font-family: "Cormorant Garamond", serif;
+         font-style: italic;
+         font-size: 18px;
+         color: #C97B46;
+      }
+   
+      #pagina-imperios p {
+         margin-left: 0;
+         font-family: "Cormorant Garamond", serif;
+         font-style: light;
+         font-size: 10px;
+         text-align: center;
+         color: #5C2A00;
+         background-color: #C97B46;
+      }
+       #pagina-imperios img{
+         width: 90%;
+       }
+
+   
+      #pagina-historiadores {
+         background-image: url(./img/fundo-historiadores.png);
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+      }
+   
+      #conteudo-historiadores {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+      }
+   
+      #pagina-historiadores #titulo {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         margin-bottom: 10vh;
+      }
+   
+      #pagina-historiadores h1 {
+         font-family: "Cormorant Garamond", serif;
+         font-style: bold;
+         font-size: 32px;
+         color: #C97B46;
+      }
+   
+      #pagina-historiadores h2 {
+         font-family: "Cormorant Garamond", serif;
+         font-style: italic;
+         font-size: 18px;
+         color: #C97B46;
+      }
+   
+      #pagina-historiadores #conteudo-historiadores p {
+         width: 85%;
+         margin-bottom: 8vh;
+         font-family: "Cormorant Garamond", serif;
+         font-style: light;
+         font-size: 9px;
+         color: #5C2A00;
+      }
+   
+      #pagina-historiadores #conteudo-historiadores img {
+         margin-right: 0;
+         height: 20vh;
+      }
+   
+   
+} 
