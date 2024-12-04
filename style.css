@@ -131,3 +131,49 @@
     text-align: center;  
  }
  
+ #pagina-revolucoes{
+    background-image: url(img/fundo-revolucoes.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+
+ #pagina-revolucoes #titulo{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-bottom: 6vh;
+   
+ }
+
+ #pagina-revolucoes h1{
+   font-family: "Cormorant Garamond", serif;
+   font-style: bold ;
+   font-size: 56px;
+   color: #C97B46;
+}
+
+#pagina-revolucoes h2{
+   font-family: "Cormorant Garamond", serif;
+   font-style: italic ;
+   font-size: 30px;
+   color: #C97B46;
+}
+ 
+#pagina-revolucoes #conteudo-revolucoes{
+width: 80%;
+height: 16vh;
+font-size: 28px;
+text-align: center;
+margin-top: 10vh;
+margin-bottom: 6vh;
+}
+ 
+#pagina-revolucoes #conteudo-revolucoes p{
+ font-family: "Cormorant Garamond", serif;
+ font-style: light ;
+ font-size: 28px;
+ text-align: center;
+ color: #5C2A00;
+}
+
