@@ -10,7 +10,7 @@
  ul,ol,li{
     list-style: none;
  }
- body{
+ html, body{
     scroll-behavior: smooth;
  }
  header{
@@ -34,7 +34,7 @@
     padding: 5vh;
     transition: all 0.3 ease;
  }
- /*quando passar por cima do mouse*/
+
  header nav a:hover{
     color: #5C2A00;
  }
@@ -90,4 +90,44 @@
  color: #5C2A00;
  }
  
+ #pagina-guerras{
+ background-image: url(./img/fundo-guerras.png);
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ }
+
+#pagina-guerras #titulo{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-bottom: 30vh;
+ }
+
+ #pagina-guerras #conteudo-guerras{
+    display: flex;
+    flex-direction: row-reverse;
+ }
+
+ #pagina-guerras h1{
+    font-family: "Cormorant Garamond", serif;
+    font-style: bold ;
+    font-size: 56px;
+    color: #C97B46;
+ }
+
+ #pagina-guerras h2{
+    font-family: "Cormorant Garamond", serif;
+    font-style: italic ;
+    font-size: 30px;
+    color: #C97B46;
+ }
+ 
+ #pagina-guerras p{
+    margin-left: 30vh;
+    font-family: "Cormorant Garamond", serif;
+    font-style: light ;
+    font-size: 28px;
+    text-align: center;  
+ }
  
