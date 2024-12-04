@@ -22,4 +22,4 @@ Site do tipo landing page para divulgar conteúdos relacionados à matéria de H
 
 ## Autor
 
-- [Thayla Amorim Mateus e João Pedro de França Maciel](https://www.linkedin.com/feed/)
+- [Thayla Amorim Mateus e João Pedro de França Maciel]
