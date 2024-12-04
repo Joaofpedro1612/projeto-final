@@ -177,3 +177,46 @@ margin-bottom: 6vh;
  color: #5C2A00;
 }
 
+#pagina-imperios{
+ background-image: url(./img/fundo-imperios.png);
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ }
+
+#pagina-imperios #titulo{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-bottom: 26vh;
+ }
+
+ #pagina-imperios #conteudo-imperios{
+    display: flex;
+    flex-direction: row-reverse;
+ }
+
+ #pagina-imperios h1{
+    font-family: "Cormorant Garamond", serif;
+    font-style: bold ;
+    font-size: 56px;
+    color: #C97B46;
+ }
+
+ #pagina-imperios h2{
+    font-family: "Cormorant Garamond", serif;
+    font-style: italic ;
+    font-size: 30px;
+    color: #C97B46;
+ }
+
+ #pagina-imperios p{
+    margin-left: 16vh;
+    font-family: "Cormorant Garamond", serif;
+    font-style: light ;
+    font-size: 28px;
+    text-align: center;  
+    background-color: #C97B46;
+    background-size: contain;
+ }
+
